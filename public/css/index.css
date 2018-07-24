@@ -1,0 +1,351 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.content{
+	width: 50000px;
+	height: 100%;
+}
+
+.list_t{
+	width: 230px;
+	height: 100%;
+	float: left;
+	background: #080D10;
+	border: 2px solid #080D10;
+}
+
+.l_t_t{
+	width: 230px;
+	height: 50px;
+}
+
+.qihao{
+	width: 115px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+.qh_show{
+	width: 230px;
+	height: 30px;
+}
+
+.qh_show > div{
+	width: 113px;
+	height: 28px;
+	border: 1px dashed white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+}
+
+.qh_show_n{
+	float: left;
+}
+
+.qh_show_c{
+	float: right;
+}
+
+.list{
+	width: 430px;
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+	border: 2px solid gray;
+}
+
+.l_title{
+	width: 430px;
+	height: 50px;
+}
+
+.zymshow{
+	width: 430px;
+	height: 30px;
+	background: #202340;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	color: white;
+}
+
+.gsbqw{
+	width: 430px;
+	height: 20px;
+	background: green;
+}
+
+.gsbqw_l{
+	float: left;
+	width: 84px;
+	height: 18px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid gray;
+}
+
+.l_number{
+	width: 430px;
+	height: 30px;
+}
+
+.l_number_s{
+	width: 84px;
+	height: 28px;
+	/*border: 1px dashed gray;*/
+	float: left;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.l_number_s > div{
+	width: 23px;
+	height: 23px;
+	border-radius: 23px;
+	margin-top: 2.5px;
+	text-align: center;
+	line-height: 23px;
+}
+
+.zuoma{
+	background: #ABCDEF;
+	float: left;
+	margin-left: 6px;
+}
+
+.zuoquan{
+	background: url("../image/zuoquan.jpg") no-repeat;
+    background-size: contain;
+}
+
+.zuoshang{
+	background: url("../image/zuoshang.jpg") no-repeat;
+    background-size: contain;
+}
+
+.zuoxia{
+	background: url("../image/zuoxia.jpg") no-repeat;
+    background-size: contain;
+}
+
+.youquan{
+	background: url("../image/youquan.jpg") no-repeat;
+    background-size: contain;
+}
+
+.youshang{
+	background: url("../image/youshang.jpg") no-repeat;
+    background-size: contain;
+}
+
+.youxia{
+	background: url("../image/youxia.jpg") no-repeat;
+    background-size: contain;
+}
+
+.youma{
+	background: #ABCDEF;
+	float: right;
+	margin-right: 6px;
+}
+
+.hovers{
+	width: 100px;
+	height: 58px;
+	background: yellow;
+	position: fixed;
+	cursor: pointer;
+	opacity: 0.2;
+	margin-top: 500px;
+}
+
+.hovers-line{
+	width: 100px;
+	height: 29px;
+}
+
+.hovers-line > a{
+	display: block;
+	width: 100px;
+	height: 29px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 16px;
+	text-decoration: none;
+	color: red;
+}
+
+.hovers:hover{
+	opacity: 1;
+}
+
+.addcode{
+	width: 800px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 1px solid red;
+}
+
+.addcode-left{
+	width: 250px;
+	height: 50px;
+	float: left;
+	background: darkgray;
+}
+
+.addcode-left-l{
+	width: 70px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.addcode-left-r{
+	width: 70px;
+	height: 50px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.addcode-left-m{
+	width: 110px;
+	height: 50px;
+	float: left;
+}
+
+.addcode-select{
+	width: 110px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+
+.addcode-right{
+	width: 550px;
+	height: 50px;
+	float: right;
+	background: darkgray;
+}
+
+.write-code{
+	width: 480px;
+	height: 50px;
+	float: left;
+}
+
+.write-code > .codes{
+	width: 90px;
+	height: 50px;
+	margin-left: 6px;
+	float: left;
+}
+
+.write-code > .codes > input{
+	width: 90px;
+	height: 50px;
+	float: left;
+	border: 0;
+	outline: none;
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.code-submit {
+	width: 70px;
+	height: 50px;
+	float: right;
+	background: yellow;
+}
+
+.code-submit > input{
+	width: 70px;
+	height: 50px;
+	float: left;
+	border: 0;
+	outline: none;
+	background: darkgray;
+	cursor: pointer;
+}
+
+.add_ruler{
+	width: 600px;
+	height: 50px;
+	border: 1px solid red;
+	margin: 0 auto;
+	margin-top: 5px;
+	background: darkgray;
+}
+
+.add_ruler_l{
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.add_ruler_r{
+	width: 500px;
+	height: 50px;
+	float: right;
+}
+
+.add_ruler_r_l{
+	width: 95px;
+	height: 50px;
+	float: left;
+	margin-left: 5px;
+}
+
+.add_ruler_r_l > input{
+	width: 95px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: red;
+	border: 0;
+	outline: none;
+}
+
+.ruler_submit{
+	width: 150px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.ruler_submit > input{
+	width: 150px;
+	height: 50px;
+	float: left;
+	border: 0;
+	outline: none;
+	background: darkgray;
+}
